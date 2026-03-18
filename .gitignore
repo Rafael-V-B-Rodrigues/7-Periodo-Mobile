@@ -1,0 +1,66 @@
+# Dependências
+node_modules/
+vendor/
+
+# Build / produção
+dist/
+build/
+out/
+.next/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente / variáveis
+.env
+.env.*
+!.env.example
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# Arquivos de cache
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Java
+target/
+*.class
+
+# Spring Boot
+*.jar
+*.war
+
+# Banco de dados local
+*.sqlite
+*.db
+
+# Docker
+docker-compose.override.yml
+
+# Testes
+coverage/
+
+# Misc
+*.pem
+*.key
